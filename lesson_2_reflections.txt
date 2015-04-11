@@ -3,6 +3,7 @@ git init -> create a git repository
 git status -> shows what has changed since the last commit
 git reset -> removes files from the staging area but not the directory
 git add -> adds files to the staging area but doesn't commit
+git commit -> commit files in the staging area
 ***************************************************************************
 
 What happens when you initialize a repository? Why do you need to do it?
