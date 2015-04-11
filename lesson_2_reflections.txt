@@ -1,10 +1,23 @@
-**********Notes************************************************************
+**********Notes*****************************************************************************
 git init -> create a git repository
+git diff -> shows the changes of the working directory and staging area
+git diff --staged -> shows the changes of the staging area and repository
 git status -> shows what has changed since the last commit
 git reset -> removes files from the staging area but not the directory
 git add -> adds files to the staging area but doesn't commit
 git commit -> commit files in the staging area
-***************************************************************************
+git checkout master -> return ...
+git branch -> displays all branches
+git branch [new branch name] -> creates a new branch named [new branch name]
+git checkout -b [new branch name]
+git log --graph --oneline [branch name] [branch name] -> oneline representation of git log
+git gc -> garbage colletion
+git merge [branch1] [branch2] or git merge [branch2] -> combines branch1 and branch2
+git merge --abort -> restores files back to the state before the merge
+git config --global core.autocrlf true -> ...
+git show [commit_id] -> compares a commit to its parent
+git branch -d [branch name] -> deletes the branch label only
+*********************************************************************************************
 
 What happens when you initialize a repository? Why do you need to do it?
 
