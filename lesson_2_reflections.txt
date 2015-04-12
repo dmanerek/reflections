@@ -17,6 +17,7 @@ git merge --abort -> restores files back to the state before the merge
 git config --global core.autocrlf true -> ...
 git show [commit_id] -> compares a commit to its parent
 git branch -d [branch name] -> deletes the branch label only
+git log -n [value] -> shows # of commits defined by the [value]
 *********************************************************************************************
 
 What happens when you initialize a repository? Why do you need to do it?
@@ -41,7 +42,7 @@ What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
 
