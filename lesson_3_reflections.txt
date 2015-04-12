@@ -2,6 +2,11 @@
 git remote add [name - (origin)] [url]
 git remote -> view 
 git remote -v -> more information than git remote
+git pull [name - (origin)] [branch - (master)]
+git config --global user.email "[email]"
+git config --global user.name "[name]"
+git fetch [name - (origin)]
+git push [name - (origin)]
 *********************************************************************************************
 When would you want to use a remote repository rather than keeping all your work
 local?
