@@ -1,0 +1,6 @@
+**********Notes*****************************************************************************
+git remote add [name - (origin)] [url]
+git remote -> view 
+git remote -v -> more information than git remote
+*********************************************************************************************
+When would you want to create a remote repository rather than keeping all your work local?
